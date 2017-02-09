@@ -1,11 +1,9 @@
-console.log('Loaded!');
-var img=document.getElementById("madi");
-img.onclick = function(){
-   var interval = setInterval(moveleft,500);
+//counter code
+var button=document.getElementById('counter');
+var count=0;
+button.onclick=function(){
+    //to render the variable in correct span
+    var span=document.getElementById('count');
+    count=count+1;
+    span.innerHTML=counter.string();
 };
-var Right=0;
-function moveleft() {
-    Right = Right+1000;
-    img.style.marginRight=Right +'px';
-    
-}
