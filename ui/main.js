@@ -11,7 +11,7 @@ function moveleft() {
 img.ondblclick = function(){
     var interval = setInterval(moveright,50);
 };
-var Right=0;
+
 function moveright() {
     Right = Right+100;
     img.style.marginleft=Right +'px';
