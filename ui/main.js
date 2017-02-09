@@ -3,9 +3,9 @@ var img=document.getElementById("madi");
 img.onclick = function(){
    var interval = setInterval(moveleft,50);
 };
-var marginRight=0;
+var Right=0;
 function moveleft() {
-    marginRight = marginRight+1;
-    img.style.marginRight=marginRight +'px';
+    Right = Right+1;
+    img.style.marginRight=Right +'px';
     
 }
