@@ -8,4 +8,4 @@ marginleft = function(){
     margin = margin+1;
     img.style.marginRight='margin px';
     
-}
+};
