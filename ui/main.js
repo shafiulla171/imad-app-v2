@@ -6,6 +6,6 @@ img.onclick = function(){
 var margin=0;
 function moveleft() {
     margin = margin+1;
-    img.style.marginRight='margin px';
+    img.style.marginRight=margin +'px';
     
 }
