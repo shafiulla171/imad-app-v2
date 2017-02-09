@@ -1,11 +1,11 @@
 console.log('Loaded!');
 var img=document.getElementById("madi");
 img.onclick = function(){
-   var interval = setInterval(moveleft,5);
+   var interval = setInterval(moveleft,50);
 };
 var Right=0;
 function moveleft() {
-    Right = Right+10;
+    Right = Right+1;
     img.style.marginRight=Right +'px';
 };
 img.ondblclick = function(){
@@ -13,6 +13,6 @@ img.ondblclick = function(){
 };
 
 function moveright() {
-    Right = Right+100;
+    Right = Right+10;
     img.style.marginleft=Right +'px';
 };
