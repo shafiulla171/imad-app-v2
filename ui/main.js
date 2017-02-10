@@ -26,7 +26,7 @@ submit.onclick = function() {
         }
     };
    //to make request
-   request.open('GET','http://shafiulla171.imad.hasura-app.io/submit-name' + name,true);
+   request.open('GET','http://shafiulla171.imad.hasura-app.io/submit-name?name=' + name,true);
    request.send(null);
     
 };
