@@ -1,8 +1,7 @@
 //counter code
-var button=document.getElementById('counter');
+
 //submit name
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 var submit = document.getElementById('submit_bt');
 submit.onclick = function() {
     //craete request to counter end point
@@ -26,6 +25,8 @@ submit.onclick = function() {
                }
         }
     };
+    var nameInput = document.getElementById('name');
+    var name = nameInput.value;
    //to make request
    request.open('GET','http://shafiulla171.imad.hasura-app.io/submit-name?name=' + name,true);
    request.send(null);
