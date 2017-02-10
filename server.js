@@ -82,7 +82,7 @@ app.get('/', function (req, res) {
 });
 
 var names = [];
-app.get('/submit-name',function(req,res) {//querry
+app.get('/submit-name',function(req,res) {//querry submit-name?name=xx
     var name=req.query.name;
     //pushing this typed name into names
     names.push(name); 
