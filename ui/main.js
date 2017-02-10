@@ -13,7 +13,8 @@ submit.onclick = function() {
             //take some action
             if(request.status == 200){
                  //capture the name
-                  var names = ['name1','name2','name3','name4'];
+                  var names = request.responseText;
+                  names = JSON.parse(names); //converting from sting to java array
                   var list='';
                   for (var i=0; i<names.length; i++){
                         list += '<li>'+ names[i] +'</li>';
