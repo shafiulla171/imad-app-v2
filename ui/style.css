@@ -1,9 +1,12 @@
 body {
-    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3SFakKgmbzlgzsQtZn7lUEXrrmCZMnyMDFDMYUDhcR1RtYHvN");
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3SFakKgmbzlgzsQtZn7lUEXrrmCZMnyMDFDMYUDhcR1RtYHvN);
     background-position: center;
     background-repeat: no-repeat;
-    
+    background-position-y: 100px;
+    background-color: rgba(175, 137, 39, 0.07);
 }
+
+
 .heading{
    
     color : blue;
