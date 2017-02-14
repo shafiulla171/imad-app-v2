@@ -1,9 +1,9 @@
 body {
-    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3SFakKgmbzlgzsQtZn7lUEXrrmCZMnyMDFDMYUDhcR1RtYHvN);
-    background-position: center;
+       background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3SFakKgmbzlgzsQtZn7lUEXrrmCZMnyMDFDMYUDhcR1RtYHvN);
+    background-position: right top;
     background-repeat: no-repeat;
-    background-position-y: 100px;
     background-color: rgba(175, 137, 39, 0.07);
+    background-size: 10%;
 }
 
 
@@ -22,16 +22,20 @@ body {
     text-decoration: underline;
 }
 ul{
+    
     list-style-type: square;
-    background-color: black;
-    overflow:hidden;
+    background-color: rgb(228, 210, 53);
+    overflow: hidden;
     
 }
 li {
-    float: left;
-    padding:3px;
+       float: left;
     display: block;
-    
-    background-color: #bd570e;
+    width: 32%;
+    background-color: #d6ac55;
     font-size: larger;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: .25%;
 }
