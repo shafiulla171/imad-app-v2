@@ -25,6 +25,10 @@ ul{
     list-style-type: square;
     
 }
-li{
-    float : left ;
+li {
+    float: left;
+    padding-left: 10px;
+    display: block;
+    color: #bd570e;
+    font-size: larger;
 }
