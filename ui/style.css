@@ -1,4 +1,4 @@
-#name h{
+.heading{
    
     color : blue;
     line-height:1px;
@@ -6,4 +6,7 @@
 }
 .top{
      text-align : center;
+}
+#name p{
+    font-style : italic;
 }
