@@ -6,13 +6,13 @@ var app = express();
 app.use(morgan('combined'));
 
 var Pool = require('pg').Pool;
-var config ={
-    user:'shafiulla171'
-    host:'db.imad.hasura.io'
-    database:'shafiulla171'
-    port:'5432'
+var config = {
+    user:'shafiulla171',
+    host:'db.imad.hasura.io',
+    database:'shafiulla171',
+    port:'5432',
     password:process.env.DB_PASSWORD
-}
+};
 
 var articles={
      'article-one':{
