@@ -71,15 +71,16 @@ var htmlTemplate=
 return htmlTemplate;
 }
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
 var counter=0;
 app.get('/counter',function(req,res){
   counter = counter+1;
   res.send(counter.toString());
 });
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
 
 var names = [];
 app.get('/submit-name',function(req,res) {//querry submit-name?name=xx
