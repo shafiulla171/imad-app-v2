@@ -120,7 +120,7 @@ app.get('/submit-name',function(req,res) {//querry submit-name?name=xx
 app.get('/article/:articleName',function(req,res){
     //articleName=article-one
     //articles[articleName]=contents of article-one
-  pool.query("SELECT * FROM article WHERE title = "+req.params.articleName,function(err,result){
+  pool.query("SELECT * FROM article WHERE title = '"+ req.params.articleName +"'",function(err,result){
       if(err){
           res.status.send(err.toString());
       }else{
