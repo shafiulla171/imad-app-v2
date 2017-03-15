@@ -122,7 +122,7 @@ app.get('/articles/:articleName',function(req,res){
     //articles[articleName]=contents of article-one
   pool.query("SELECT * FROM article WHERE title = '"+ req.params.articleName +"'",function(err,result){
       if(err){
-          res.status.send(err.toString());
+          res.status(500).send(err.toString());
       }else{
           if(result.rows.length===0){
               res.status(404).send('article not found');
